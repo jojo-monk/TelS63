@@ -34,4 +34,4 @@ sudo apt install supervisor
 * pour rajouter une sortie audio jack au raspberry pi0 : https://wiki.mchobby.be/index.php?title=RASP-PIZERO-Audio
 * et ici (option 1) pour activer la sortie audio : https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio
 
-On peut aussi acheter un petit adaptateur HDMI-Jack ou prendre un raspberry pi B qui a déjà une sortie audio (mais un peu difficile à caser dans le boitier du téléphone. 
+On peut aussi acheter un petit adaptateur HDMI-Jack ou prendre un raspberry pi B qui a déjà une sortie audio (mais un peu difficile à caser dans le boitier du téléphone).
