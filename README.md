@@ -8,11 +8,17 @@ lecteur de mp3 piloté par un téléphone à cadran
 5. Installer supervisor pour que le programme démarre automatiquement au boot : sudo apt install supervisor
 6. Ajouter les lignes suivantes : 
 
-; TelS63
-[program:TelS63]
-command= python /home/pi/TelS63-1.py
-autostart=true
-autorestart=true
+
+```
+ ; TelS63
+ [program:TelS63]
+ command= python /home/pi/TelS63-1.py
+ autostart=true
+ autorestart=true
+```
+
 
 à la fin du fichier /etc/supervisor/supervisord.conf
+
+
 7. Créer un dossier sons dans /home/pi et y copier les fichiers mp3 que l'on souhaite, les fichiers doivent être renommés en 1.mp3, 2.mp3... jusqu'à 10.mp3
