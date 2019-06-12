@@ -1,5 +1,5 @@
 # TelS63
-lecteur de mp3 piloté par un téléphone à cadran
+lecteur de mp3 piloté par un téléphone à cadran socotel s63 à l'aide d'un raspberry pi0
 
 1. connecter le fil rouge du cadran au pin gpio4 du raspberry pi et le fil rouge/blanc sur un pin GND(voir le schéma)
 2. créer le dossier s63 dans le dossier pi du raspberry, y copier les fichiers Rotarydial.py Sons.py et __init__.py
@@ -31,4 +31,7 @@ sudo apt install supervisor
 
 * pour le cablage : https://github.com/revolunet/s63
 * pour le code : https://github.com/hnesland/aselektriskbureau
+* pour rajouter une sortie audio jack au raspberry pi0 : https://wiki.mchobby.be/index.php?title=RASP-PIZERO-Audio
+* et ici (option 1) pour activer la sortie audio : https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio
 
+On peut aussi acheter un petit adaptateur HDMI-Jack ou prendre un raspberry pi B qui a déjà une sortie audio (mais un peu difficile à caser dans le boitier du téléphone. 
