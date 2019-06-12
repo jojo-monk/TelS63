@@ -2,7 +2,11 @@
 lecteur de mp3 piloté par un téléphone à cadran socotel s63 à l'aide d'un raspberry pi0
 
 1. connecter le fil rouge du cadran au pin gpio4 du raspberry pi et le fil rouge/blanc sur un pin GND(voir le schéma)
-2. créer le dossier s63 dans le dossier pi du raspberry, y copier les fichiers Rotarydial.py Sons.py et "__init__.py"
+2. créer le dossier s63 dans le dossier pi du raspberry, y copier les fichiers Rotarydial.py Sons.py et 
+```
+__init__.py
+```
+
 3. copier le Fichier TelS63-1.py dans /home/pi
 4. dans le terminal faire : 
 ```
