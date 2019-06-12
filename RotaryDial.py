@@ -27,9 +27,7 @@ class RotaryDial:
     last_input = 0
 
     def __init__(self):
-	#global choix
-        #global z
-        #global current_digit
+	
 	current_digit = 0
          # Set GPIO mode to Broadcom SOC numbering
         GPIO.setmode(GPIO.BCM)
@@ -68,30 +66,9 @@ class RotaryDial:
         if self.StartSon == 1:
             self.current_digit = 0
             self.StartSonCallback()
-# return self.current_digit
-#	self.choix = self.current_digit
-        #return z
-        #self.NumberCounter(self,channel)
 
-#    def Result(self):
-#        self.choix = self.current_digit
-#        return self.choix
     # Handles the callbacks we're supplying
     def RegisterCallback(self, NumberCallback, StartSonCallback):
         self.NumberCallback = NumberCallback
         self.StartSonCallback = StartSonCallback
-       # self.OffHookCallback = OffHookCallback
-       # self.OnHookCallback = OnHookCallback
-       # self.OnVerifyHook = OnVerifyHook
-
-       # input = GPIO.input(self.pin_onhook)
-       # if input:
-        #    self.OffHookCallback()
-       # else:
-#self.OnHookCallback()
-#try:
- #   RotaryDial()
-    #GPIO.remove_event_detect(4)
-  #  time.sleep(30)
-#finally:
-#    GPIO.cleanup()
+       
