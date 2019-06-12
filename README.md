@@ -26,3 +26,6 @@ sudo apt install supervisor
 
 
 7. Créer un dossier sons dans /home/pi et y copier les fichiers mp3 que l'on souhaite, les fichiers doivent être renommés en 1.mp3, 2.mp3... jusqu'à 10.mp3
+
+## Liens qui m'ont aidé:
+
