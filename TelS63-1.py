@@ -6,11 +6,10 @@ import Queue
 import threading
 import signal
 import sys
-#import yaml
 import RPi.GPIO as GPIO
 import time
 from s63.RotaryDial import RotaryDial
-from wradio import wradio
+from s63.Sons import Sons
 
 callback_queue = Queue.Queue()
 
