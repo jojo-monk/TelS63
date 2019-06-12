@@ -29,3 +29,5 @@ sudo apt install supervisor
 
 ## Liens qui m'ont aidé:
 
+pour le cablage : https://github.com/revolunet/s63
+pour le code : 
